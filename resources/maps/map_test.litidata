@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<litidata version="1.0">
+ <maps>
+  <map version="1.2" tiledversion="1.1.6" orientation="orthogonal" renderorder="right-down" width="80" height="45" tilewidth="16" tileheight="16" infinite="0" hexsidelength="0" nextobjectid="22" name="map_test">
+   <tileset firstgid="1" source="unicolors_16_16.tsx"/>
+   <layer name="Background" width="80" height="45">
+    <properties>
+     <property name="layerOrder" value="0"/>
+    </properties>
+    <data encoding="csv">
+5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,5,5,3,5,5,5,5,5,5,5,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,5,5,5,3,3,5,5,5,5,5,5,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,5,5,5,5,3,3,3,5,5,5,5,5,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,5,5,5,5,5,3,3,3,3,5,5,5,5,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,5,5,5,5,3,3,3,3,3,5,5,5,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,5,5,5,5,5,3,3,3,3,3,3,5,5,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,5,5,5,5,5,5,3,3,3,3,3,3,3,5,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,5,5,5,5,5,5,5,5,5,3,3,3,3,3,3,3,3,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+</data>
+   </layer>
+   <objectgroup name="collision">
+    <properties>
+     <property name="layerOrder" value="1"/>
+    </properties>
+    <object id="18" type="COLLISIONBOX" x="-16" y="-16" width="16" height="752">
+     <properties>
+      <property name="isObstacle" value="true"/>
+     </properties>
+    </object>
+    <object id="19" type="COLLISIONBOX" x="1280" y="-16" width="16" height="752">
+     <properties>
+      <property name="isObstacle" value="true"/>
+     </properties>
+    </object>
+    <object id="20" type="COLLISIONBOX" x="0" y="-16" width="1280" height="16">
+     <properties>
+      <property name="isObstacle" value="true"/>
+     </properties>
+    </object>
+    <object id="21" type="COLLISIONBOX" x="0" y="720" width="1280" height="16">
+     <properties>
+      <property name="isObstacle" value="true"/>
+     </properties>
+    </object>
+   </objectgroup>
+   <objectgroup name="ennemy_spawn">
+    <properties>
+     <property name="layerOrder" value="2"/>
+    </properties>
+    <object id="10" name="ennemySpawnTop" type="SPAWNPOINT" x="48" y="16" width="1216" height="32">
+     <properties>
+      <property name="tags" value="ennemy_spawn"/>
+     </properties>
+    </object>
+    <object id="13" name="ennemySpawnBottom" type="SPAWNPOINT" x="16" y="672" width="1216" height="32">
+     <properties>
+      <property name="tags" value="ennemy_spawn"/>
+     </properties>
+    </object>
+    <object id="14" name="ennemySpawnLeft" type="SPAWNPOINT" x="16" y="16" width="32" height="656">
+     <properties>
+      <property name="tags" value="ennemy_spawn"/>
+     </properties>
+    </object>
+    <object id="17" name="ennemySpawnRight" type="SPAWNPOINT" x="1232" y="48" width="32" height="656">
+     <properties>
+      <property name="tags" value="ennemy_spawn"/>
+     </properties>
+    </object>
+   </objectgroup>
+  </map>
+ </maps>
+ <spriteSheets>
+  <sprite width="8" height="16" name="fire_player_16">
+   <image>iVBORw0KGgoAAAANSUhEUgAAAAgAAAAQCAYAAAArij59AAAAKklEQVR42mNggIL/Nxj+I2MGdIBXAbokhiLKFOCShCsaVUCsgiwgAw8GABg3P+x+cwV2AAAAAElFTkSuQmCC</image>
+   <keyframes>250</keyframes>
+  </sprite>
+  <sprite width="16" height="16" name="unicolors_16_16">
+   <image>iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAAABSklEQVR42u3UQREAMAzDsEILtDLfQOS3SXem4JneaUpStbtVrYHPGQAYgAGAARgAGIABgAEYABiAAYABGAAYgAGAARgAGIABgAEYABiAAYABGAAYgAGAARgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPCgC47XOYjosE69AAAAAElFTkSuQmCC</image>
+  </sprite>
+  <sprite width="46" height="46" name="player_top_46">
+   <image>iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAYAAABXuSs3AAACGElEQVR42u2YzWrCQBDHY0QvihdPvoCISq9eeuhV8CB48AHEL/AgSJqPU6GPYWkpLT0UiqWXPoAPIvgIRTwIus0W1m5j0uxHdhNh/zBoSNz5ZZzMzEbTBAkAMHfN0c5JLvAD+JV9LtAviNgwDPTVTDr0ByKFh9Amk8nxPpIK/eaFRjYYDNCp66RBPwdBIxsOh+gSKynQ94BedtzQ87BIe800TfQTJy7oO1poZLZtxxN51+EjKzQyy7Lk5rzr6JUXGtlsNpNT510Hn1FBIxuNRmLrfJSR9lq/3xcT+ShyOszG43G0DyxL9UilUqBYLIJCocCa847UOr3f7wM7zmazoa02DndHDHNWrVaJW2Y+nxdX50lmDxZoGnisw1qk0G806cEqkrWn0ynZVOk3T/9nh8OBGXy32xH5wKZKI3TnQloFeEXqB5vnrcA9IulimUyGG1zXdWJ/2E7KPil5NFHq9Xrc4I1Gg/Xfc2irzdFRu93mBq/Van/ARQ5ZIJvN/jiCn7yCHRauBTusaPCvxWIR+cO5Xq/h4a1IcB13yFMOt9utnDTxy/OoGpAs8Bvccb1ep4YulUreG7+QtX0D5XKZCR6HbjabcqLtha9UKsRpA0de/NpWqyUfOijyeFftdrug0+mAdDp9cj6WSPvBs8w3SXkNd4WAlsslyOVyR1A4e69WKzxrLpP61vbJJ8XfNSUlJSUlJSUlen0DA3qvvAKtVM4AAAAASUVORK5CYII=</image>
+   <keyframes>250</keyframes>
+  </sprite>
+  <sprite width="46" height="46" name="player_bottom_46">
+   <image>iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAYAAABXuSs3AAACIklEQVR42u2XTWrCQBTHNaIbxY0rLyCi0q2bLroVXAguPID4BS4EiUlcFXoMi6W0dFEolm56AA8ieIQiLgQdfUMDaTRmPpMU5g9DSDLM/PLy8n8vsZiSkpKSkpKSEr0QQp/oXC9Rhb21CVerFcpkMgguw0in02i5XDof4i4q0Fg2qN9wzA8XularncElEgnUbDZRq9VCyWTy7H6hUAgPHjau1+t/gPb7Pbom59xisRg8vDvS+XwekapSqYQT+dM+N87o0UBfgv/VfSDRvvSx0cq9RqDg2+2WGfxwOLgfXpMJ/bBer7mj7Y76YrGA0x+p0c5ms3izeDzODZ5KpfBacJSaLs4olctlbvBGo8Ge56f5U5bXW61WucHb7TZr2s1seAvOhsMhcenWNI0b/FJV9WsVTnpyR96Eq91ul2Uxbksk3OfNK210uNvr9YgW3O12QuyQEPrLL+cnMGs0GkmNOuXaH6QfLE4bwzB8F4fem1alUokG+pXWbfAHa1mWUHhK6Dmrb2OrNE2T6NVuNhtPYGh5KdNjxlt0MPx4PCZ2ARhQYXO5HK6wDO7xKKpi4rQZDAZU8DTDoWfR5d6AVTudjkzod1m9Cvb5fr8vA/pbdj9usOR8KJH28nlStwk0p0X6vHT3YLVKkgor3KdFRZ5S81gUZOf8ta6SufcIAH7i1c9Td3khwOvuPynifjoC8NjndV33/3OJILzl+Y/4D+CnMi3vCDwjr7xJ0aFfAAAAAElFTkSuQmCC</image>
+   <keyframes>250</keyframes>
+  </sprite>
+  <sprite width="46" height="46" name="player_left_46">
+   <image>iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAYAAABXuSs3AAACUUlEQVR42tWYvWoCQRDHzxNtFBsrX0BEJa1NirSChWDhA4hfYCHIxbtUgTyGwRAiFgExpMkD+CCCjxDEQtB1x7hhPe/7bu92B6ZYdu/43dzMf2dXkhgZQuhJEs0wtIYdiQatoouJBK0A8GAwEAcccz4CbKfTQX9DAcBJenS73TO0EOCkEIfD4T809+AgeQA4Ho+voLkGJ9Capt1AcwtO0kNVVUNoLsEhMwBqNBqZQnMHTnS63+9bQhNwyl4ij3S73baFpj2TyaDNZkN/xF3oOt3r9VxBW/2J0ArRLqdpl2UZVSoVVCqVUCwWu5mvVqts4YnkWakH7fv9HpnZbre7Wlur1djAk0ib6TTt6XQaObVcLscu8iSnjXZEP9BG8Be7D6zLu0TCrew5tkA1n+g0dHlOwLfbrWfww+EQDDjRaV0/zSTa+qiv12sYfnkuRDi56KLAFDwej1/ViSfJUxTFKO8sd0S/1mg0vKcLXj+xKBhTz2azvsGbzaa/PMfPvOnh7cBhR/RriUTi/K5UKuW9QPFzcxo+zOJcrVYw/PCjLN9mWmvkIGlBgAeye+J3LITbgCj4mVP4YrHoGrpcLus//CHIfmXKAp6GzufzzDrEiZu0OR6PpsAwR68tFArMe/JXN/DgIHOtVgvV63WUTCZv5plF2gD+3S185Ec3Cv7TCzxEfLlc0lnzHMVJ/8cpvM5+sctR3604ijyvV3C2Oc/zpael2vB+zWyq8yJc7E+Z9h+M4WdMOr6Q4BcG/bwkCry+n5dEgp8LCU6fYSURDaSS5ftPATKvvB3z2AkAAAAASUVORK5CYII=</image>
+   <keyframes>250</keyframes>
+  </sprite>
+  <sprite width="46" height="46" name="player_right_46">
+   <image>iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAYAAABXuSs3AAACI0lEQVR42tXYv2oCMRwH8Hiii+Li5AuIqHR16dBVcBAcfADxHzgIct6dU6GPoShScSiIpUsfwAcRfIQiDoKmxhKIqaf5d+flC5k0l4/hd7/cCYCHgRAOgY6Bf5noCkeZ6wpH+dIKTvkXWsEp/EwrOIUfawWn8EOt4BR+pBWcwk+1glP4j0dDjdP4IUW34BT++xHgV7z6crmE0Wj0LvjhO8+6sxz4qS/odDr9D4F2vFwuw1qtBiORiAh+5Ck6k8lcLHw8HqFb0Gec+KHnO53P5yFrstksD36sEv1C1jQPWhA/86Q3i4azbBZK4TI5HA48cLnn+dPk99VqpQTOejhR68yFdzsWi50vhtqcbEKhEBOcwk+kyqRarUrDk8kkM1yqVZIXqlQq0vBEIsEFN00TTx1ww+Px+Pki4XDYtxpHo9Pp4GmOSKl8rtdr32/ORqOBp1hK2iFqaaLZbrdM8GaziaeYOh5AfRUH0DO5cCqV4kbj++TWsCwLf91W+pBVLBaF8Cxox3HEb0QWfKlUulhwt9u5gvf7PVN52LYt1vJkdh4PdCLmcjlYKBSgYRjMLxK9Xs+7nfbq1a3VaqmvaQb8E151s9ncPRHpUa/X5fu0gh/xxtP22u22mj7t5x9CRE1bIEi5BSe6hwOCFjc40acHIIi5BidOxGCir8G73W5wy8MNTjzl2SDoufI83Qc6BEmJNxcT6BLiHLKBTtHiRnSBe9byfgE+a6+8M74PqAAAAABJRU5ErkJggg==</image>
+   <keyframes>250</keyframes>
+  </sprite>
+  <sprite width="32" height="32" name="player_top_left_32">
+   <image>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABGUlEQVR42uWXPQ6DMAyFIzXqteBO7NAjdOACZO4cNli4Q+deoFO3DjRGREoCgfwJq+JJlhDEeZ8gdgIZEUVA84UWVVVNA/I8XzyLDc18DSDLsuPMTYDDzVUAFHMJgGZOlBEo5hIAzdxWhrao69pa003TaGP7vk8L4NFczJxXNEBAh9NyowAi2uwUsL52q8BmXhRFMADn3O0tbAEk2GzUeSgawLy53bEBnqcHYNiL8OoNwBgLNh+GIb4MUzQiudX/byv2haCUmjmfIABQ13XavbZtnb45BOQGb8dbrzTpYWQNwEwWl195btwzlgtO6E1ctVKv49bZEVSWpRaLvx0fSQDXCWCdiXhAa53jJuJCQhVFn0Ko5sonOK9+N9jlL71CNcYAAAAASUVORK5CYII=</image>
+   <keyframes>250</keyframes>
+  </sprite>
+  <sprite width="32" height="32" name="player_top_right_32">
+   <image>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABG0lEQVR42uXXPQ6DIBQAYJKSXkvv5K49QgcvIHNn3XTxDp17gU7dOrTQSAKI8EDz3tCXvEUFPkF+ZEzGhzCYDuPCoVmW5a/epmlW9ywABqIoijAAG+EFYCI2AViIIAADEQVgIECAaZqswl3Xbc7rtm3BCMgQPNy3T1hgDgFkNQ5FRGeBGqfcxiGIKEA/2Pd9NqCqqnSAvM5NwAEbTjLgam4eFID73wMENeBM+hG603Ce5+zGhRD5APfwgLoQkS/FC+BlVsQ5x92MdC+M42gVDH0TwzBYz6qyWyAQYM+hJNYrYMCCePqO1r7U5z0Z79BLJAHcilTUdW2l948n0JNZAKOyk8yLWraXvKldNGU4dwH2RKynUBGMMsgBKr6ANuUvvra7gQAAAABJRU5ErkJggg==</image>
+   <keyframes>250</keyframes>
+  </sprite>
+  <sprite width="32" height="32" name="player_bottom_left_32">
+   <image>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABEElEQVR42uWWsQ6DIBCGTUp8LX0nd+0jdOAFYO6smy68g3NfoFO3DpRLNAGCETjiDf2TS0QP7wMOuKqiljYiByCF0JYolyAawrgwY09j62Z3Yzc0wBmEPVN93zuGmkUbIARhHr/QbprG8QsZ+Gx6ZwN4g9Wh72eWNBtHAUDzPDvvpmnSR1JKOb7QNwoidoSxYoz5fT5ogFT5fVEAufITMwtASpkNYOdENgBW3n9qMoBhGKApqQHWvwd4UCchSwboui47+DiO+G1Y4iBq2xYHQH4Up0IE+ryKAIBxzg8DCyEc32VZ4q9jWKfUoqNYUbI7kkHs9R4ZxJ4DZBCh4uFSCH8XXA4R2obb5XENhCYUxP8B94/lL3wPybEAAAAASUVORK5CYII=</image>
+   <keyframes>250</keyframes>
+  </sprite>
+  <sprite width="32" height="32" name="player_bottom_right_32">
+   <image>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABE0lEQVR42uWWPRKDIBCFnQmTa+md7DVHSOEFpE6tnTbewToXSJUuBYEZkwF0wwLBLXwz2wjL+8DlJ8uOLCFFak4GIDTFDHKScZExL3GTwTxmHgag01dVZYRrZrq5N4Ds+1AJeZ5/B4BC9Vn0gsy9ALaSMWFrqx1lPgyDkThNk4DU973RV+VC8E4A2f7UkxljAivsCmEOCnBJYyF+AtgFF6ooAMw/d4lz7g8gv5/t/RqjEABe1zUpwHx4gCs1ACMtQnsbdl0XbF6WZThAURR0BxH5UbwA3EMh/nIZfVZhHEcjsW1b0LhpGq/3QrLHiCtUfaFqIKW5cxekNP+8G8nMwRrYy3wTYE/zFUBqc/1yWwEIQr0BP/zlL2CVtd8AAAAASUVORK5CYII=</image>
+   <keyframes>250</keyframes>
+  </sprite>
+  <sprite width="32" height="32" name="ennemy1_32">
+   <image>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAnElEQVR42mP4z8DwfyAxw6BxAAOdwdB2AFBx/X8rq2Uo+P9/eZo7gOh4pbYDyE5g1HAAxamcEgdQLauR4wCq5/ch5QCalXpDwgFAhj3Nyv7//1kIOwBUqtHKAXJyEwbWAaghPTIdsJ+wA4C1Gg0TIdtoOTBaFwyd6nhQNEgGRZNsUDRKMTQDazVQqYZkaT1QjHnkdExo4oAR2zsGAKzmT6qppX1QAAAAAElFTkSuQmCC</image>
+   <keyframes>250</keyframes>
+  </sprite>
+  <sprite width="8" height="16" name="fire_player_top_16">
+   <image>iVBORw0KGgoAAAANSUhEUgAAAAgAAAAQCAYAAAArij59AAAAKklEQVR42mNggIL/Nxj+I2MGdIBXAbokhiLKFOCShCsaVUCsgiwgAw8GABg3P+x+cwV2AAAAAElFTkSuQmCC</image>
+   <keyframes>250</keyframes>
+  </sprite>
+  <sprite width="8" height="16" name="fire_player_bottom_16">
+   <image>iVBORw0KGgoAAAANSUhEUgAAAAgAAAAQCAYAAAArij59AAAAJ0lEQVR42mP4n8XwHx9m+H8DyMCDRxUQqwAE8EpSRwE2RQzoAJcCACUVP+zCTLzAAAAAAElFTkSuQmCC</image>
+   <keyframes>250</keyframes>
+  </sprite>
+  <sprite width="16" height="8" name="fire_player_left_16">
+   <image>iVBORw0KGgoAAAANSUhEUgAAABAAAAAICAYAAADwdn+XAAAAJElEQVR42mNgwAL+32D4TxTOYvhPuiZ0A8jSOMwMoDgQKY1GANg/P+zpy2izAAAAAElFTkSuQmCC</image>
+   <keyframes>250</keyframes>
+  </sprite>
+  <sprite width="16" height="8" name="fire_player_right_16">
+   <image>iVBORw0KGgoAAAANSUhEUgAAABAAAAAICAYAAADwdn+XAAAAJklEQVR42mP4n8Xw//8N4jADNkCKAVgNI9cAuEEj2ACyAhFbLAIAZXg/7GUZ2vkAAAAASUVORK5CYII=</image>
+   <keyframes>250</keyframes>
+  </sprite>
+  <sprite width="16" height="16" name="fire_player_top_left_16">
+   <image>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAtElEQVR42mNgAIL/1xns/99gePD/JkP9/2sMqgykAKjm/2h4K9AgC+IMuMFwF4sBMLzi/20GUfwGgJyN2wAIvsnggtuAKwwqBA2AGOKFzxsbiDLkBoMHLm+YEWnAf2Cgu+FyxSoSDHHHNOAagyTRBuByCVDQgWgDWoE4m8EZW3iEE6U5C2xAGK7wiCaoOYshmlAKTcZjcxJxyfwmQwoWzSmkZrZ0uOZMhjQGcgBQcw4IY5MDAFAbep7qjobbAAAAAElFTkSuQmCC</image>
+   <keyframes>250</keyframes>
+  </sprite>
+  <sprite width="16" height="16" name="fire_player_top_right_16">
+   <image>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAvUlEQVR42p2TQQrCMBBF/yVcuNcriDsFRcUD6KI7LYqNd3DVu4grN95EmgQRvMk4QbDU2HTSwFtl3k+GTICIRQX6ZHEigxdpjGLEIUs3hio0hdADHS48e2LJs162mAbED9xOnbxslB139HzZYCGSDa6+rDETyu76g195LpYNLu1PdhTolrLChPIIWWNcPV1hRRlv5KK+1/+fLUMiCEnCU6ewCYRsZTOvkHohFimiftwBu2+Ixh5tFgccHZLaN0wBep5HEiTIAAAAAElFTkSuQmCC</image>
+   <keyframes>250</keyframes>
+  </sprite>
+  <sprite width="16" height="16" name="fire_player_bottom_left_16">
+   <image>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAtElEQVR42mNgIAL8z2LIAWEGcsD/6wzp/1sZ/gMN+P8/kyGNNM03GVL+3wBqBGGYIdkMKcRpvsGQDNeMaUgSIc3RGJrRDcliiMbl7HCcmjFdEoYeYA4ENSMbks3gjNB8jUGSaM0gfJ3BDd3fq0jQ7I7ubzOybYbavoFIAzwwNV9hUCFK800GL1zRVk+EZhd8ieYuHs0r/t9mECWUWeyxaNwKjFYLUnIcyJAHYO9cY1AlJcMBAKvjep7W16MPAAAAAElFTkSuQmCC</image>
+   <keyframes>250</keyframes>
+  </sprite>
+  <sprite width="16" height="16" name="fire_player_bottom_right_16">
+   <image>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAs0lEQVR42mNgwAL+ZzHkgDADOeB/JkMaUPP//61AfJ0hnTTN2QwpcM03oPgmQwqxmpMwNCNwMn7NWQzReDTDcDQum8OI0AzzTjg2A5yJ0gzD1xkcMA25zuBGtAEgfI1BEpsh7iQYsgp7eJDikpsMZtgNucHgQaQhG3BH600GL6IMucKggs8QFyK8UY8/gd1mEAUqXIHHkLvEJfNrDBZAxVuxpAl70jLbNQZVkLOBmh/ANAMAp8l6nhcZPXUAAAAASUVORK5CYII=</image>
+   <keyframes>250</keyframes>
+  </sprite>
+ </spriteSheets>
+ <tilesets>
+  <tileset firstgid="0" name="unicolors_16_16" tilewidth="16" tileheight="16" tilecount="256" columns="16">
+   <image source="unicolors_16_16.png" width="256" height="256"/>
+  </tileset>
+ </tilesets>
+ <emitters/>
+ <blueprints/>
+</litidata>
